@@ -1,0 +1,23 @@
+{
+  "name": "Lili Álvarez Nutrición",
+  "short_name": "Lili Nutrición",
+  "description": "Lili Álvarez, dietista-nutricionista online. Enfoque integrativo y no pesocentrista.",
+  "theme_color": "#fbf9f3",
+  "background_color": "#fbf9f3",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

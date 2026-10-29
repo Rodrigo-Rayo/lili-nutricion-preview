@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+# Rastreadores de buscadores de IA y de asistentes: permitidos de forma explícita.
+# Buscadores de IA (aparecer en respuestas con enlace)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Rastreadores de entrenamiento / uso en IA generativa
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# [PENDIENTE] dominio: mismo valor que SITE_URL (src/app/site.config.ts) y scripts/site.mjs
+Sitemap: https://www.lilialvareznutricion.com/sitemap.xml
